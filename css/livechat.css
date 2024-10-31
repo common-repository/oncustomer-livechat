@@ -1,0 +1,117 @@
+.livechat-wrapper{
+    width: 80%;
+    height: 100%;
+    margin: 20px auto 0px auto;
+    box-sizing: border-box;
+    padding: 80px 50px;
+    line-height: 1.5;
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+}
+
+.livechat-content{
+    margin: 25px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.livechat-logo{
+    height: 60px;
+}
+
+.livechat-icon{
+    height: 40px;
+    margin-right: 20px;
+}
+
+.livechat-link{
+    text-decoration: none;
+    color: #02B875;
+    font-weight: bold;
+}
+
+.livechat-link:hover{
+    text-decoration: underline;
+    color: #09915f;
+}
+
+.livechat-button-green{
+    border: none;
+    padding: 15px 20px;
+    background-color: #02B875;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.livechat-button-green:hover{
+    cursor: pointer;
+    background-color: #09915f;
+    color: white;
+}
+
+.livechat-button-green:focus{
+    background-color: #09915f;
+    color: white;
+}
+
+.livechat-button-outline{
+    border: 1px solid #8992A4;
+    padding: 15px 20px;
+    background-color: white;
+    color: #8992A4;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.livechat-button-outline:hover{
+    cursor: pointer;
+    background-color: #8992A4;
+    color: white;
+}
+
+.livechat-button-outline:focus{
+    background-color: #8992A4;
+    color: white;
+}
+
+.livechat-background{
+    width: 400px;
+    height: 400px;
+    margin-top: 40px;
+    margin-left: 100px;
+    background: transparent url('../images/oncustomer-livechat-wp-background.svg') no-repeat;
+    box-sizing: border-box;
+}
+
+.livechat-webiste-name{
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+#adminmenu .menu-icon-generic.toplevel_page_oncustomer-livechat-settings div.wp-menu-image{
+    left: 10px;
+    position: relative;
+    top: 8px;
+    background: transparent url('../images/oncustomer-livechat-wp.svg') no-repeat !important;
+}
+
+#adminmenu .menu-icon-generic.toplevel_page_oncustomer-livechat-settings a:hover div.wp-menu-image{
+    background: transparent url('../images/oncustomer-livechat-wp-green.svg') no-repeat !important;
+}
+
+#adminmenu .menu-icon-generic.toplevel_page_oncustomer-livechat-settings a.current div.wp-menu-image{
+    background: transparent url('../images/oncustomer-livechat-wp-white.svg') no-repeat !important;
+}
+  
+#adminmenu .menu-icon-generic.toplevel_page_oncustomer-livechat-settings div.wp-menu-image:before {
+    content: "";
+}
+
+body.toplevel_page_oncustomer-livechat-settings{
+    background-color: white;
+}
